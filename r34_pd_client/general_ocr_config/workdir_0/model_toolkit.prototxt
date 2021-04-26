@@ -1,0 +1,15 @@
+engines {
+  name: "general_infer_0"
+  type: "FLUID_GPU_ANALYSIS_DIR"
+  reloadable_meta: "workdir_0/fluid_time_file"
+  reloadable_type: "timestamp_ne"
+  model_data_path: "./det_infer_server"
+  runtime_thread_num: 0
+  batch_infer_size: 0
+  enable_batch_align: 0
+  enable_memory_optimization: true
+  static_optimization: false
+  force_update_static_cache: false
+  enable_ir_optimization: false
+  use_trt: false
+}

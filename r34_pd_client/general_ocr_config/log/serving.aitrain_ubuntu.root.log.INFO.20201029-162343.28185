@@ -1,0 +1,8 @@
+Log file created at: 2020/10/29 16:23:43
+Running on machine: aitrain_ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1029 16:23:43.537884 28185 resource.cpp:113] Successfully proc initialized mempool wrapper
+E1029 16:23:43.538146 28185 infer.h:784] failed load infer config, path: workdir_0/model_toolkit.prototxt
+E1029 16:23:43.538233 28185 resource.cpp:167] failed proc initialize modeltoolkit, config: workdir_0/model_toolkit.prototxt
+E1029 16:23:43.538252 28185 pdserving.cpp:173] Failed initialize resource, conf:workdir_0/resource.prototxt
+W1029 16:23:43.538270 28185 cube_api.cpp:111] Destroy, cube meta is null

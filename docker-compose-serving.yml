@@ -1,0 +1,18 @@
+version: '2.3'          #指定version为2.3或者2.4，支持GPU的docker-compose
+services:
+  paddle_ocr:
+    image: paddle_ocr:1.0.0
+    container_name: paddle_ocr
+    network_mode: "host"
+    restart: always
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    # ports:
+    #   - "9293:9293"       #通用OCR api对外服务端口
+    #   - '9292:9292'
+    volumes:
+      - "/opt/webapps/develop/wangpengyuan/paddle_ocr_deploy/log:/log"    #日志目录映射
+      - "/opt/webapps/develop/wangpengyuan/paddle_ocr_deploy/model:/model"    #模型目录映射
+
+

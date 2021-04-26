@@ -1,0 +1,6 @@
+Log file created at: 2020/10/29 16:24:54
+Running on machine: aitrain_ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1029 16:24:54.856691 28572 infer.h:784] failed load infer config, path: workdir_0/model_toolkit.prototxt
+E1029 16:24:54.856766 28572 resource.cpp:167] failed proc initialize modeltoolkit, config: workdir_0/model_toolkit.prototxt
+E1029 16:24:54.856786 28572 pdserving.cpp:173] Failed initialize resource, conf:workdir_0/resource.prototxt

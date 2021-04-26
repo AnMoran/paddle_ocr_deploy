@@ -1,0 +1,12 @@
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0426 01:26:55.108536     7 naming_service_thread.cpp:209] brpc::policy::ListNamingService("127.0.0.1:9293"): added 1
+E0426 01:26:55.108536     7 factory.h:149] RAW: Insert duplicate with tag: WeightedRandomRender
+I0426 01:26:55.108536     7 abtest.h:67] RAW: Factory has been registed: WeightedRandomRender->EndpointRouterBase.
+I0426 01:26:55.112282     7 naming_service_thread.cpp:209] brpc::policy::ListNamingService("127.0.0.1:9292"): added 1
+ * Serving Flask app "AiBao_flask_general_ocr" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8101/ (Press CTRL+C to quit)
+127.0.0.1 - - [26/Apr/2021 01:39:12] "[37mPOST /v2/general_ocr/ HTTP/1.1[0m" 200 -

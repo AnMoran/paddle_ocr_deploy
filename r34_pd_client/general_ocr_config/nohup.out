@@ -1,0 +1,44 @@
+nohup: ignoring input
+mkdir: cannot create directory ‘workdir_0’: File exists
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralCopyOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralReaderOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralInferOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralDistKVInferOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralResponseOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralTextResponseOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralDistKVQuantInferOp
+I0100 00:00:00.000000 27767 op_repository.h:68] RAW: Succ regist op: GeneralTextReaderOp
+I0100 00:00:00.000000 27767 service_manager.h:79] RAW: Service[LoadGeneralModelService] insert successfully!
+I0100 00:00:00.000000 27767 load_general_model_service.pb.h:333] RAW: Success regist service[LoadGeneralModelService][PN5baidu14paddle_serving9predictor26load_general_model_service27LoadGeneralModelServiceImplE]
+I0100 00:00:00.000000 27767 service_manager.h:79] RAW: Service[GeneralModelService] insert successfully!
+I0100 00:00:00.000000 27767 general_model_service.pb.h:1507] RAW: Success regist service[GeneralModelService][PN5baidu14paddle_serving9predictor13general_model23GeneralModelServiceImplE]
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_GPU_ANALYSIS, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_gpu_engine.cpp:27] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine<FluidGpuAnalysisCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_GPU_ANALYSIS in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_GPU_ANALYSIS_DIR, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_gpu_engine.cpp:33] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine< FluidGpuAnalysisDirCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_GPU_ANALYSIS_DIR in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_GPU_ANALYSIS_DIR_SIGMOID, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_gpu_engine.cpp:39] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine< FluidGpuAnalysisDirWithSigmoidCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_GPU_ANALYSIS_DIR_SIGMOID in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_GPU_NATIVE, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_gpu_engine.cpp:44] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine<FluidGpuNativeCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_GPU_NATIVE in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_GPU_NATIVE_DIR, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_gpu_engine.cpp:49] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine<FluidGpuNativeDirCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_GPU_NATIVE_DIR in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_GPU_NATIVE_DIR_SIGMOID, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_gpu_engine.cpp:55] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine< FluidGpuNativeDirWithSigmoidCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_GPU_NATIVE_DIR_SIGMOID in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_CPU_ANALYSIS, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_cpu_engine.cpp:25] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine<FluidCpuAnalysisCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_CPU_ANALYSIS in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_CPU_ANALYSIS_DIR, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_cpu_engine.cpp:31] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine< FluidCpuAnalysisDirCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_CPU_ANALYSIS_DIR in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_CPU_ANALYSIS_DIR_SIGMOID, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_cpu_engine.cpp:37] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine< FluidCpuAnalysisDirWithSigmoidCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_CPU_ANALYSIS_DIR_SIGMOID in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_CPU_NATIVE, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_cpu_engine.cpp:42] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine<FluidCpuNativeCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_CPU_NATIVE in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_CPU_NATIVE_DIR, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_cpu_engine.cpp:47] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine<FluidCpuNativeDirCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_CPU_NATIVE_DIR in macro!
+I0100 00:00:00.000000 27767 factory.h:155] RAW: Succ insert one factory, tag: FLUID_CPU_NATIVE_DIR_SIGMOID, base type N5baidu14paddle_serving9predictor11InferEngineE
+W0100 00:00:00.000000 27767 fluid_cpu_engine.cpp:53] RAW: Succ regist factory: ::baidu::paddle_serving::predictor::FluidInferEngine< FluidCpuNativeDirWithSigmoidCore>->::baidu::paddle_serving::predictor::InferEngine, tag: FLUID_CPU_NATIVE_DIR_SIGMOID in macro!
+[libprotobuf ERROR /root/disk/github/Serving/build_gpu_server_cuda10/third_party/protobuf/src/extern_protobuf/src/google/protobuf/text_format.cc:298] Error parsing text-format baidu.paddle_serving.configure.ModelToolkitConf: 14:10: Message type "baidu.paddle_serving.configure.EngineDesc" has no field named "use_trt".
+E1029 16:22:46.035475 27767 infer.h:784] failed load infer config, path: workdir_0/model_toolkit.prototxt
+E1029 16:22:46.035532 27767 resource.cpp:167] failed proc initialize modeltoolkit, config: workdir_0/model_toolkit.prototxt
+E1029 16:22:46.035543 27767 pdserving.cpp:173] Failed initialize resource, conf:workdir_0/resource.prototxt
+Going to Run Comand
+/root/.virtualenvs/dlabcuda9/lib/python3.6/site-packages/paddle_serving_server_gpu/serving-gpu-cuda10-0.0.0/serving -enable_model_toolkit -inferservice_path workdir_0 -inferservice_file infer_service.prototxt -max_concurrency 0 -num_threads 2 -port 9293 -reload_interval_s 10 -resource_path workdir_0 -resource_file resource.prototxt -workflow_path workdir_0 -workflow_file workflow.prototxt -bthread_concurrency 2 -gpuid 0 -max_body_size 536870912 

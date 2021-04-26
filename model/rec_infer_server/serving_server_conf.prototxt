@@ -1,0 +1,23 @@
+feed_var {
+  name: "image"
+  alias_name: "image"
+  is_lod_tensor: false
+  feed_type: 1
+  shape: 3
+  shape: 32
+  shape: 320
+}
+fetch_var {
+  name: "ctc_greedy_decoder_0.tmp_0"
+  alias_name: "ctc_greedy_decoder_0.tmp_0"
+  is_lod_tensor: true
+  fetch_type: 0
+  shape: -1
+}
+fetch_var {
+  name: "softmax_0.tmp_0"
+  alias_name: "softmax_0.tmp_0"
+  is_lod_tensor: true
+  fetch_type: 1
+  shape: -1
+}
