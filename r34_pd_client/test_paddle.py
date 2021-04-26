@@ -906,7 +906,7 @@ if __name__ == "__main__":
         MyList = manager.list()
         time_start = time.time()
         for i in range(10):
-            img = cv2.imread('/home/users/wangpengyuan/aibao_apis/general_ocr/test/tr_img_02683.jpg')
+            img = cv2.imread('./tr_img_02683.jpg')
             pool.apply_async(general_ocr_port,(img,det_ip_port,rec_ip_port,MyList))
         pool.close()
         pool.join()
